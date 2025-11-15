@@ -41,8 +41,8 @@ RUN cd /app/backend && \
 # 前端部分
 # ==========================================
 
-# 复制前端构建产物
-COPY frontend/dist /app/frontend/dist/
+# 复制前端构建产物（从 build-context 目录）
+COPY frontend-dist /app/frontend/dist/
 
 # ==========================================
 # 启动脚本

@@ -4,7 +4,7 @@ docs/
 node_modules
 dist
 pnpm-lock.yaml
-builtin-providers.json
+#builtin-providers.json
 
 # 环境变量文件
 .env
